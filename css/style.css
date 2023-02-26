@@ -1,0 +1,88 @@
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+background-image:url(../images/pexels-tima-miroshnichenko-5380673.jpg);
+background-size: cover;
+}
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    height: 380px;
+    background: rgb(0, 0,0,.5);
+    border-radius: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+h2{color: white;
+    text-align: center;
+    margin-top: 20px;
+   
+}
+.user{
+    position: absolute;
+    width: 200px;
+    height: 35px;
+    padding: 5px;
+    color: black;
+    font-size: medium;
+    top: 100px;
+    left: 50px;
+    
+}
+.user input[type="text"]{
+    width: 240px;
+    height: 35px;
+    font-family: 'Poppins', sans-serif;
+}
+.user label{
+    color: white;
+}
+.password{
+    position: absolute;
+    width: 200px;
+    height: 35px;
+    padding: 5px;
+    color: black;
+    font-size: medium;
+    top: 160px;
+    left: 50px;
+}
+.password label{
+    color: white;
+}
+.password input[type="password"]{
+    width: 240px;
+    height: 35px;
+    font-family: 'Poppins', sans-serif;
+}
+button{
+    position: absolute;
+    top: 240px;
+    left: 50px;
+    width: 255px;
+    height: 35px;
+    background: red;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 15px;
+    font-size: 20px;
+}
+.para1{
+    position: absolute;
+    top: 265px;
+    left: 50px;
+    color: white;
+    cursor: pointer;
+}
+.para2{
+    position: absolute;
+    top: 295px;
+    left: 50px;
+    color: white;
+    cursor: pointer;
+}
